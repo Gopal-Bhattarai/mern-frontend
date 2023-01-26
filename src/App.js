@@ -5,8 +5,6 @@ import Signup from './components/users/Signup';
 import ForgotPassword from './components/users/ForgotPassword';
 import ResetPassword from './components/users/ResetPassword';
 import ManageUser from './components/admin/ManageUser';
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 import EmailVerification from './components/users/EmailVerification';
 import UserProfile from './components/users/UserProfile';
 import Home from './components/Home';
@@ -58,18 +56,7 @@ function App() {
   
 return (
     <>
-    <ToastContainer
-      position="top-right"
-      autoClose={1000}
-      hideProgressBar={false}
-      newestOnTop={false}
-      closeOnClick
-      rtl={false}
-      pauseOnFocusLoss
-      draggable
-      pauseOnHover
-      theme={colorScheme}
-      />
+
 
 <Router>
   <UserState>
