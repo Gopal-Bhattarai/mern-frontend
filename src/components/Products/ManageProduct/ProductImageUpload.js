@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { RiDeleteBin6Line } from "react-icons/ri"
 import { ImProfile } from 'react-icons/im'
+import "react-toastify/dist/ReactToastify.css";
 import { Box, Card, Container, FileInput, Group, Image, Loader, SimpleGrid, Tooltip } from '@mantine/core';
 import { showNotification as notify } from '@mantine/notifications';
 import { IconCheck } from '@tabler/icons';
